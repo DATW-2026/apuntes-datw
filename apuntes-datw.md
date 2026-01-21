@@ -43,3 +43,25 @@
 ```
 
 - Instalamos [ESLint](https://eslint.org/).
+
+#### _20-21/01/2026_
+
+- Funciones básicas
+- Expresiones funcionales
+- Arrow functions
+- Funciones puras
+  - No dependen de valores exteriores a la función, pasamos los valores como parámetros
+  - No pueden tener efectos (por ejemplo, _console.log_ sería un efecto)
+  - Con los mismos argumentos produce el mismo resultado
+- Scoope o ámbito de las variables en JS. let y const VS var.
+- Redondeos:
+  ```js
+  Math.floor(5.999); // 5
+  Math.trunc(5.999); // 5
+  Math.ceil(5.001); // 6
+  Math.round(5.6); // 6
+  ```
+- Generación de números aleatorios entre 0 y 1
+  `Math.random();`
+- Operadores
+- Bucles
