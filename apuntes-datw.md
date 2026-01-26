@@ -53,7 +53,7 @@
   - No dependen de valores exteriores a la función, pasamos los valores como parámetros
   - No pueden tener efectos (por ejemplo, _console.log_ sería un efecto)
   - Con los mismos argumentos produce el mismo resultado
-- Scoope o ámbito de las variables en JS. let y const VS var.
+- Scope o ámbito de las variables en JS. let y const VS var.
 - Redondeos:
   ```js
   Math.floor(5.999); // 5
@@ -69,12 +69,12 @@
 #### _22/01/2026_
 
 - Operador ternario --> num % 2 === 0 ? 'par' : 'impar'
-- Valores por defectos en parámetros de funciones --> function(parametro = 'valor por defecto') {...}
+- Valores por defectos en parámetros de funciones --> function(parámetro = 'valor por defecto') {...}
 - Iteración e índices en strings --> string[i]
 - Arrays --> const array = [elemento1, elemento2, elemento3]
 - Recorrer arrays, inyectar items...
-- Instalación de dependencias con `npm i <nombre-libreria>`
-- Instalar prompt-sync en nuestro proyecto _demo-js_ `npm i prompt-sync` para poder hacer promts en la consola de node de manera sencilla
+- Instalación de dependencias con `npm i <nombre-librería>`
+- Instalar prompt-sync en nuestro proyecto _demo-js_ `npm i prompt-sync` para poder hacer prompts en la consola de node de manera sencilla
 - Package.json y package-lock.json
 - [gitignore.io](https://www.toptal.com/developers/gitignore)
 - Control + Espacio --> preguntar a Intellisense de VSCode
@@ -88,4 +88,29 @@
 - Objetos -> propiedades, valores, anidamiento de objetos, array de arrays (matrices multidimensionales)
 - Acceso a propiedades de objetos con punto `.` y a items de arrays con corchetes `[i]`
 - Métodos de array
-- clonado de objetos (shallow vs depp) --> structuredClone(object)
+- clonado de objetos (shallow vs deep) --> structuredClone(object)
+
+#### _26/01/2026_
+
+- Nuevo repo demo-html --> .gitignore (node), .editorconfig, readme.md, package.json (prettier singlequote)
+
+- Plugins interesantes
+  - HTML CSS Support (ecmel)
+  - Auto Rename Tag (Jun Han)
+  - Liver Server (Ritwick Dey)
+  - Prettier (Prettier)
+  - CSS Peek (Pranay Karani)
+  - Live Share (Microsoft)
+  - Image preview (Kiss Tamás)
+  - Peacock (john Papa)
+  - Code Spell Checker (Street Side Software) default (inglés) y Spanish
+
+  - Definición HTML, primeros pasos
+  - Protocolo http
+  - https://validator.w3.org/
+  - Elementos, etiquetas, atributos...
+  - Párrafos `<p>`, encabezados `<h1-h6>`, `div`
+  - HTML Semántico
+  - SEO (Search Engine Optimization) y WPO (Web Performance Optimization)
+  - Enlaces `<a href="https://www.google.es">`
+  - [web.dev (de Google)](https://web.dev/learn?hl=es-419) -> Cursos de HTML, CSS, JS...
