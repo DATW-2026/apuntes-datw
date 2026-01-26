@@ -96,14 +96,14 @@
 
 - Plugins interesantes
   - HTML CSS Support (ecmel)
-  - Auto Rename Tag (Jun Han)
-  - Liver Server (Ritwick Dey)
+  - Auto Rename Tag (Jun Han) --> lo mismo que `editor.linkedEditing`
+  - Liver Server (Ritwick Dey) --> Lo mismo que LivePreview de Microsoft
   - Prettier (Prettier)
   - CSS Peek (Pranay Karani)
   - Live Share (Microsoft)
   - Image preview (Kiss Tamás)
   - Peacock (john Papa)
-  - Code Spell Checker (Street Side Software) default (inglés) y Spanish
+  - Code Spell Checker (Street Side Software) default (inglés) y Spanish `"cSpell.language": "en,es",`
 
   - Definición HTML, primeros pasos
   - Protocolo http
