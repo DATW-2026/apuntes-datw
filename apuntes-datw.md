@@ -144,3 +144,20 @@
 - Podemos cambiar el color, icono y nombre de mis terminales
 - Fuentes --> Google Fonts
 - `<script type="module" src="./ex2.js"></script>` para enlazar a archivos .js
+
+### _28/01/2026_
+
+- Atributos HTML (universales y específicos)
+- Lighthouse (herramientas de desarrollador del navegador · F12)
+- Etiquetas en bloque (de sección y agrupamiento) vs etiquetas en línea
+- `<header>` y <`footer`>
+- `<section>`
+- `<nav>` (permite definir estructura de navegación)
+- `<article>` Información autocontenida (tiene sentido por si mismo)
+- `<aside>` Información adicional (ej: publicidad)
+- `<main>` Contenido principal de la página (no se repite en otras páginas. Normalmente lo que no está en header ni footer)
+- [ARIA](https://developer.mozilla.org/es/docs/Web/Accessibility/ARIA) (Accessible Rich Internet Applications)
+- `<section>aria-label="lorem ipsum"</section>` Información de accesibilidad. `<section>` normalmente es genérico, si queremos que tenga un ARIA rol, aplicamos el atributo `aria-label`.
+- Párrafos:
+  - `<pre>` Párrafos pre-formateado . Respeta el formato, por ejemplo los saltos de línea
+  - `<blockquote>`. Bloque de cita

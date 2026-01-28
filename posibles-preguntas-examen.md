@@ -44,3 +44,7 @@ function addNum(a, b) {
 }
 addNum(2, 4); // Argumentos
 ```
+
+## Los básicos de HTML
+
+Los HTML deben tener los elementos básicos del _boiler plate_ según lo genera _emmet_ (!) y validar en el [Validador HTML](https://validator.w3.org/). También deben llevar **favicon** y **descripción**. Si no, **SUSPENDE EL EXAMEN**.
