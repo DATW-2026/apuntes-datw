@@ -171,3 +171,35 @@
 - Ramas podríamos dividirlas en (features/, bugs/, hotfix/)
 - Despliegue a producción con GitHub.io desde la rama main
 - [Página de recetas](https://cfdalcobendas2026.github.io/recetas/)
+
+### _30/01/2026_
+
+- Revisión de página de recetas en grupo
+- Formato _.avif_ --> Muy recomendado para sustituir al .jpg en entornos web
+
+---
+
+- 148h en empresa
+- Acabamos el 27 mayo
+
+---
+
+- [mdn | art direction](https://developer.mozilla.org/en-US/docs/Web/HTML/Guides/Responsive_images)
+- Lazy loading: `<img src="" alt="" loading="lazy"/>`, `<img src="" alt="" loading="async"/>`
+- Etiqueta `<video></video>`
+- Etiqueta `<iframe></iframe>`
+- Etiqueta `<table></table>`
+- Formularios `<form></form>`
+
+  ```js
+  // Buenas prácticas con label-input
+  // label envuelve el input, así no es necesario label for="" ni input id=""
+  <label>
+    <span>Nombre:</span> // span para aplicar estilos
+    <input type="text" name="name" required />
+  </label>
+  ```
+
+- Campos agrupados del formulario: `<fieldset></fieldset>`
+- REGEX y pattern
+- Atributo `method:"post"` para el formulario --> para mandar datos mínimamente sensibles (http**s**), más seguro que el "get" standard

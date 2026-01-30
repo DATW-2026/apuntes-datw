@@ -5,3 +5,5 @@
 - [web.dev](https://web.dev/learn?hl=es-419) -> Cursos Google de HTML, CSS, JS...
 - [Validador HTML](https://validator.w3.org/)
 - [opengraph.xyz](https://www.opengraph.xyz/) -> Visualiza tu web según los metadatos og que tenga
+- [mdn | art direction](https://developer.mozilla.org/en-US/docs/Web/HTML/Guides/Responsive_images)
+- REGEX: [regexr](https://regexr.com/) | [regexlearn](https://regexlearn.com/)
