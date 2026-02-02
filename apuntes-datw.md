@@ -203,3 +203,11 @@
 - Campos agrupados del formulario: `<fieldset></fieldset>`
 - REGEX y pattern
 - Atributo `method:"post"` para el formulario --> para mandar datos mínimamente sensibles (http**s**), más seguro que el "get" standard
+
+### _2/2/2026_
+
+- [Curso CSS web.dev](https://web.dev/learn/css?hl=es-419)
+- Estilos en línea, estilos en el HEAD y estilos en archivo .css
+- Selectores CSS
+- Pseudo-clases
+- Pre-procesadores de CSS. Variables y anidamiento

@@ -7,3 +7,4 @@
 - [opengraph.xyz](https://www.opengraph.xyz/) -> Visualiza tu web según los metadatos og que tenga
 - [mdn | art direction](https://developer.mozilla.org/en-US/docs/Web/HTML/Guides/Responsive_images)
 - REGEX: [regexr](https://regexr.com/) | [regexlearn](https://regexlearn.com/)
+- [Curso CSS web.dev](https://web.dev/learn/css?hl=es-419)
