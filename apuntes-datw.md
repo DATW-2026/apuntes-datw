@@ -211,3 +211,22 @@
 - Selectores CSS
 - Pseudo-clases
 - Pre-procesadores de CSS. Variables y anidamiento
+
+### _3/2/2026_
+
+- Metodología [BEM](https://getbem.com/) (grandes clases) vs [TailwindCSS](https://tailwindcss.com/) (pequeñas clases utilitarias)
+- Especificidad CSS
+- Navegación de click y aparición con enlace href=#loquesea y luego al navegar se le aplica la pseudoclase target. Eso hace que display: none se desactive
+- [State of CCS](https://stateofcss.com/es-ES/)
+- Variables en CSS moderno o Custom Properties
+
+```css
+:root {
+  --color-primary: black;
+  --color-secondary: beige;
+}
+
+.button {
+  color: var(--color-primary);
+}
+```
