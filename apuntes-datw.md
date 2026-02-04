@@ -56,17 +56,17 @@
 - Expresiones funcionales
 - Arrow functions
 - Funciones puras
-  - No dependen de valores exteriores a la función, pasamos los valores como parámetros
-  - No pueden tener efectos (por ejemplo, _console.log_ sería un efecto)
-  - Con los mismos argumentos produce el mismo resultado
+    - No dependen de valores exteriores a la función, pasamos los valores como parámetros
+    - No pueden tener efectos (por ejemplo, _console.log_ sería un efecto)
+    - Con los mismos argumentos produce el mismo resultado
 - Scope o ámbito de las variables en JS. let y const VS var.
 - Redondeos:
-  ```js
-  Math.floor(5.999); // 5
-  Math.trunc(5.999); // 5
-  Math.ceil(5.001); // 6
-  Math.round(5.6); // 6
-  ```
+    ```js
+    Math.floor(5.999); // 5
+    Math.trunc(5.999); // 5
+    Math.ceil(5.001); // 6
+    Math.round(5.6); // 6
+    ```
 - Generación de números aleatorios entre 0 y 1
   `Math.random();`
 - Operadores
@@ -101,25 +101,25 @@
 - Nuevo repo demo-html --> .gitignore (node), .editorconfig, readme.md, package.json (prettier singlequote)
 
 - Plugins interesantes
-  - HTML CSS Support (ecmel)
-  - Auto Rename Tag (Jun Han) --> lo mismo que `editor.linkedEditing`
-  - Liver Server (Ritwick Dey) --> Lo mismo que LivePreview de Microsoft
-  - Prettier (Prettier)
-  - CSS Peek (Pranay Karani)
-  - Live Share (Microsoft)
-  - Image preview (Kiss Tamás)
-  - Peacock (john Papa)
-  - Code Spell Checker (Street Side Software) default (inglés) y Spanish `"cSpell.language": "en,es",`
+    - HTML CSS Support (ecmel)
+    - Auto Rename Tag (Jun Han) --> lo mismo que `editor.linkedEditing`
+    - Liver Server (Ritwick Dey) --> Lo mismo que LivePreview de Microsoft
+    - Prettier (Prettier)
+    - CSS Peek (Pranay Karani)
+    - Live Share (Microsoft)
+    - Image preview (Kiss Tamás)
+    - Peacock (john Papa)
+    - Code Spell Checker (Street Side Software) default (inglés) y Spanish `"cSpell.language": "en,es",`
 
-  - Definición HTML, primeros pasos
-  - Protocolo http
-  - https://validator.w3.org/
-  - Elementos, etiquetas, atributos...
-  - Párrafos `<p>`, encabezados `<h1-h6>`, `div`
-  - HTML Semántico
-  - SEO (Search Engine Optimization) y WPO (Web Performance Optimization)
-  - Enlaces `<a href="https://www.google.es">`
-  - [web.dev (de Google)](https://web.dev/learn?hl=es-419) -> Cursos de HTML, CSS, JS...
+    - Definición HTML, primeros pasos
+    - Protocolo http
+    - https://validator.w3.org/
+    - Elementos, etiquetas, atributos...
+    - Párrafos `<p>`, encabezados `<h1-h6>`, `div`
+    - HTML Semántico
+    - SEO (Search Engine Optimization) y WPO (Web Performance Optimization)
+    - Enlaces `<a href="https://www.google.es">`
+    - [web.dev (de Google)](https://web.dev/learn?hl=es-419) -> Cursos de HTML, CSS, JS...
 
 ### _27/01/2026_
 
@@ -127,18 +127,18 @@
 - El estilo no tiene nada que ver con HTML, es solo estructura
 - Archivo .svg, código svg y etiqueta `<svg>`
 - `<head>`
-  - Metadatos `<meta>`
-    - name y content:
-      - `name="viewport" content="width=device-width, initial-scale=1.0"`
-      - `name="description" content="Descripción breve de la página web"`
-      - `name="keywords" content="HTML, CSS, JavaScript"` --> Ya no es tan importante porque los buscadores lo automatizan
-      - `name="robots" content="index, follow"` --> Indicaciones para los bots de los buscadores
-      - `name="author" content="Edu"`
-      - `name="og:title" content=""` --> Open Graph. Como muestran nuestra web las redes sociales
-      - [opengraph.xyz](https://www.opengraph.xyz/)
-    - link:
-      - `<link rel="stylesheet" href="">`
-      - `<link rel="icon" href="">`
+    - Metadatos `<meta>`
+        - name y content:
+            - `name="viewport" content="width=device-width, initial-scale=1.0"`
+            - `name="description" content="Descripción breve de la página web"`
+            - `name="keywords" content="HTML, CSS, JavaScript"` --> Ya no es tan importante porque los buscadores lo automatizan
+            - `name="robots" content="index, follow"` --> Indicaciones para los bots de los buscadores
+            - `name="author" content="Edu"`
+            - `name="og:title" content=""` --> Open Graph. Como muestran nuestra web las redes sociales
+            - [opengraph.xyz](https://www.opengraph.xyz/)
+        - link:
+            - `<link rel="stylesheet" href="">`
+            - `<link rel="icon" href="">`
 
 - Instalación de Live Server en el proyecto `npm i live-server` y uso con `npx live-server`
 - Podemos cambiar el color, icono y nombre de mis terminales
@@ -159,8 +159,8 @@
 - [ARIA](https://developer.mozilla.org/es/docs/Web/Accessibility/ARIA) (Accessible Rich Internet Applications)
 - `<section>aria-label="lorem ipsum"</section>` Información de accesibilidad. `<section>` normalmente es genérico, si queremos que tenga un ARIA rol, aplicamos el atributo `aria-label`.
 - Párrafos:
-  - `<pre>` Párrafos pre-formateado . Respeta el formato, por ejemplo los saltos de línea
-  - `<blockquote>`. Bloque de cita
+    - `<pre>` Párrafos pre-formateado . Respeta el formato, por ejemplo los saltos de línea
+    - `<blockquote>`. Bloque de cita
 
 ### _29/01/2026_
 
@@ -191,14 +191,14 @@
 - Etiqueta `<table></table>`
 - Formularios `<form></form>`
 
-  ```js
-  // Buenas prácticas con label-input
-  // label envuelve el input, así no es necesario label for="" ni input id=""
-  <label>
-    <span>Nombre:</span> // span para aplicar estilos
-    <input type="text" name="name" required />
-  </label>
-  ```
+    ```js
+    // Buenas prácticas con label-input
+    // label envuelve el input, así no es necesario label for="" ni input id=""
+    <label>
+        <span>Nombre:</span> // span para aplicar estilos
+        <input type="text" name="name" required />
+    </label>
+    ```
 
 - Campos agrupados del formulario: `<fieldset></fieldset>`
 - REGEX y pattern
@@ -222,11 +222,33 @@
 
 ```css
 :root {
-  --color-primary: black;
-  --color-secondary: beige;
+    --color-primary: black;
+    --color-secondary: beige;
 }
 
 .button {
-  color: var(--color-primary);
+    color: var(--color-primary);
 }
 ```
+
+### _4/2/2026_
+
+- Como empezar con estilos:
+    - reset
+    - variables: paleta de colores, escala, tipografías...
+    - base:
+
+- rem (relativo a la raíz), em (relativo al elemento padre)
+
+- Box model. Para que los elementos no cuenten el contenido (sobre todo padding y borde) a la hora de establecer su anchura y altura
+
+```css
+/* NO usamos content-box, que viene por defecto. Cambiamos a border-box. Solo el margen queda fuera del elemento */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+```
+
+- Valores block y inline (start y end) para posiciones en CSS para más internacionalización y accesibilidad de nuestra web -> [web.dev/learn](https://web.dev/learn/css/logical-properties?hl=es-419)

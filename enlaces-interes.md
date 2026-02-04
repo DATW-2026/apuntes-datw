@@ -8,3 +8,8 @@
 - [mdn | art direction](https://developer.mozilla.org/en-US/docs/Web/HTML/Guides/Responsive_images)
 - REGEX: [regexr](https://regexr.com/) | [regexlearn](https://regexlearn.com/)
 - [Curso CSS web.dev](https://web.dev/learn/css?hl=es-419)
+- [Plugin de tailwindcss para prettier](https://github.com/tailwindlabs/prettier-plugin-tailwindcss)
+- [Frontend Masters](https://frontendmasters.com/free/)
+- [You don't know JavaScript](https://github.com/getify/You-Dont-Know-JS)
+- [Gits de GitHub](https://gist.github.com/Yevestevez)
+- [Reset CSS](https://www.joshwcomeau.com/css/custom-css-reset/)
