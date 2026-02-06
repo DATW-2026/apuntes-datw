@@ -13,3 +13,5 @@
 - [You don't know JavaScript](https://github.com/getify/You-Dont-Know-JS)
 - [Gits de GitHub](https://gist.github.com/Yevestevez)
 - [Reset CSS](https://www.joshwcomeau.com/css/custom-css-reset/)
+- [Font Awesome](https://fontawesome.com/) -> Iconos SVG
+- [Contrast Finder](https://app.contrast-finder.org/?lang=es) -> Web para buscar colores con buen ratio de contraste
