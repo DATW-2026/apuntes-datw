@@ -15,3 +15,4 @@
 - [Reset CSS](https://www.joshwcomeau.com/css/custom-css-reset/)
 - [Font Awesome](https://fontawesome.com/) -> Iconos SVG
 - [Contrast Finder](https://app.contrast-finder.org/?lang=es) -> Web para buscar colores con buen ratio de contraste
+- [Cloudinary](https://cloudinary.com/)
