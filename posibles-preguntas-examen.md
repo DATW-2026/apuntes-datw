@@ -38,9 +38,9 @@ Las partes de la función son:
 Ejemplo:
 
 ```js
-//Definición --> nombreFuncion(parámetros)
+//Definición --> nombreFunción(parámetros)
 function addNum(a, b) {
-  return a + b; // Cuerpo
+    return a + b; // Cuerpo
 }
 addNum(2, 4); // Argumentos
 ```
@@ -48,3 +48,27 @@ addNum(2, 4); // Argumentos
 ## Los básicos de HTML
 
 Los HTML deben tener los elementos básicos del _boiler plate_ según lo genera _emmet_ (!) y validar en el [Validador HTML](https://validator.w3.org/). También deben llevar **favicon** y **descripción**. Si no, **SUSPENDE EL EXAMEN**.
+
+## Diferencias entre HTML y DOM (Document Object Model)
+
+**HTML** -> _Parsing y creación del árbol del DOM por parte del navegador_ -> **DOM**
+
+## ¿Qué son las API Web?
+
+Conjunto de funciones de JS que proporciona el navegador más allá del núcleo de JS
+
+## ¿Qué es un motor de JS?
+
+Es un programa informático que ejecuta código JavaScript, convirtiéndolo o compilando en lenguaje que la CPU puede entender (lenguaje de bajo nivel). Transforma el código de alto nivel en instrucciones que permiten la interactividad y funcionamiento de aplicaciones web.
+
+Ej: V8 (Chrome y Node).
+
+## ¿Cómo funciona un navegador (parsing, render, etc...)?
+
+## Diferencia entre node y el navegador
+
+Node es el motor de renderizado del navegador sin sus API webs
+
+## Transpilador
+
+Convierte de un lenguaje de alto nivel a otro lenguaje de alto nivel
