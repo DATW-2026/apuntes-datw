@@ -72,3 +72,64 @@ Node es el motor de renderizado del navegador sin sus API webs
 ## Transpilador
 
 Convierte de un lenguaje de alto nivel a otro lenguaje de alto nivel
+
+## ¿En qué nos ayuda _defer_ al renderizar nuestra web?
+
+Evita que QuerySelector nos de _undefined_ por no tener el DOM cargado. También ayuda a que no haya bloqueo del renderizado del DOM al esperar a JS.
+
+```js
+<script type="module" src="main.js" defer></script>
+```
+
+## ¿Qué es una función en JS?
+
+Un bloque de código **reutilizable**, normalmente con nombre, que admite **parámetros** externos, ejecuta un **conjunto de instrucciones** al ser **llamada** y devuelve **(return)** un resultado. Las funciones son además, **OBJETOS**.
+
+```js
+function patatas() {
+    const result = "loquesea";
+    return result;
+}
+
+patatas(); // Invocación de la función
+```
+
+## ¿Qué es un objeto en JS?
+
+UN tipo de **dato no primitivo** (referenciado) de JS. Una estructura de datos fundamental, similar a un contenedor, que **agrupa pares de "clave:valor"** (también llamados propiedades) para representar entidades complejas.
+
+```js
+const obj = {
+    prop1: value1,
+    prop2: value2,
+};
+
+obj.prop3 = value3; // Añadir propiedad a un objeto
+```
+
+## Maneras de crear una función
+
+```js
+// Declaración de función
+function make() {
+    const x = 2;
+    console.log(x);
+}
+
+make();
+
+// Asignación expresión funcional
+const foo = function () {
+    const x = 2;
+    console.log(x);
+};
+
+foo();
+
+// Asignación arrow function
+
+const arrow = () => {
+    const x = 2;
+    console.log(x);
+};
+```
